@@ -1,0 +1,23 @@
+{
+  "name": "instalite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "InstaLite Express and Prisma API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "seed": "prisma db seed"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "7.10.0",
+    "@prisma/client": "7.10.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "prisma": "7.10.0"
+  }
+}
